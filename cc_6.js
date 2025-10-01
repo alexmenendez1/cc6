@@ -35,3 +35,12 @@ const emp3 =new Manager ("Satoru Gojo", "Accounting", 4);
 console.log(emp3.describe())
 
 //Step 5
+
+const employees = [];
+class Company {
+    constructor(employees){
+addEmployee(employee)
+listEmployees()
+    }
+    
+}
