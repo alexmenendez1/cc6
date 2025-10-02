@@ -39,8 +39,6 @@ class Company {
     constructor(){
 this.employees = []
     }
-
-
 addEmployee(employee)
 {}
 listEmployees()
