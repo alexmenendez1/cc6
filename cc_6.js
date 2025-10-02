@@ -35,12 +35,19 @@ const emp3 =new Manager ("Satoru Gojo", "Accounting", 4);
 console.log(emp3.describe())
 
 //Step 5
-
-const employees = [];
 class Company {
-    constructor(employees){
-addEmployee(employee)
-listEmployees()
+    constructor(){
+this.employees = []
     }
-    
+
+
+addEmployee(employee)
+{}
+listEmployees()
+{}
 }
+const company= new Company()
+company.addEmployee(emp1);
+company.addEmployee(emp2);
+company.addEmployee(emp3);
+console.log(company.listEmployees());
