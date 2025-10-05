@@ -40,9 +40,13 @@ class Company {
 this.employees = []
     }
 addEmployee(employee)
-{}
+{
+    this.employees.push(employee)
+}
 listEmployees()
-{}
+{
+return this.employees.describe(employee)
+}
 }
 const company= new Company()
 company.addEmployee(emp1);
