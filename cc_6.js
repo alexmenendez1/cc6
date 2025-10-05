@@ -45,7 +45,7 @@ addEmployee(employee)
 }
 listEmployees()
 {
-return this.employees.describe(employee)
+    this.employees.forEach(employee => console.log(employee.describe())) 
 }
 }
 const company= new Company()
